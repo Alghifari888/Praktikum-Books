@@ -1,16 +1,11 @@
-# praktikumbooks
+Flutter, berdasarkan materi perkuliahan Aplikasi Mobile Lanjutan.
 
-A new Flutter project.
+🚀 Getting Started Proyek ini merupakan titik awal untuk memahami konsep asynchronous programming dalam Flutter. Setiap soal berisi penjelasan, cuplikan kode, serta hasil output berupa screenshot atau GIF.
 
-## Getting Started
+📝 Daftar Soal
 
-This project is a starting point for a Flutter application.
+✅ Soal 1 Tambahkan nama panggilan Anda pada judul aplikasi sebagai identitas hasil pekerjaan Anda.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+📸 Hasil: 
+## 🎥 Demo
+![Demo](./soal1.gif)
