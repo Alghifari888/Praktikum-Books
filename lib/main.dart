@@ -44,8 +44,14 @@ class _FuturePageState extends State<FuturePage> {
   }
 
   Future calculate() async {
-    await Future.delayed(const Duration(seconds : 5));
-    completer.complete(42);
+    try {
+      await Future.delayed(const Duration(seconds : 5));
+      completer.complete(42);
+      // throw Exception();
+    }
+    catch (_) {
+      completer.completeError({});
+    }
   }
 
 
@@ -88,7 +94,7 @@ class _FuturePageState extends State<FuturePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Soal 4 - HABIB'),
+        title: const Text('Soal 6 - HABIB'),
       ),
       body: Center(
         child: Column(children: [
@@ -101,7 +107,10 @@ class _FuturePageState extends State<FuturePage> {
                 setState(() {
                   result = value.toString();
                 });
+              }).catchError((e) {
+                result = 'An error occurred';
               });
+
               // Kode dari praktikum sebelumnya di-comment
               // setState(() {});
               // getData().then((value) {
