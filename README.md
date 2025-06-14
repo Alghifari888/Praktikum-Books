@@ -8,4 +8,4 @@ Flutter, berdasarkan materi perkuliahan Aplikasi Mobile Lanjutan.
 
 📸 Hasil: 
 ## 🎥 Demo
-![Demo](./soal1.gif)
+![Demo](./soal1.gif).
